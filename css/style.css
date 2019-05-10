@@ -1,0 +1,172 @@
+/* Author: Joy Ahmed;
+Author info: joy.ahmed984@gmail.com;*/
+
+
+/*
+
+    ======index======
+
+    1. Header Section
+    2. Hero Section
+    3. News Section
+    4.Newslater Section
+    5.Subscription Section
+    6. Service Section
+    7. Footer Section
+
+*/
+
+/* Global css */
+
+.img-center{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.title{
+    
+    text-align: center;
+    color: #fff;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.btn{
+    
+    background-color: #fff;
+    color: red;
+    padding: 5px 20px;
+    display: block;
+    margin: 5% auto;
+    border-radius: 30px;
+}
+/* Theme css */
+
+.bg-dark {
+    background-color: #edeff1e0!important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #11a5a7;
+    border-color: rgb(239, 13, 13);
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #31353e;
+}
+
+.nav-link.js-scroll-trigger.active {
+    background-color: #dd4b2b;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.sub-title{
+    padding-top: 300px;
+}
+
+.hero{
+    
+    background: url(../img/hero.png)no-repeat;
+    background-size: cover;
+}
+
+.title-custom {
+    color: #161616;
+    margin-top: -100px;
+}
+
+.bg-light h3 {
+    text-align: center;
+    margin: 3%;
+}
+
+.bg-light p {
+    text-align: justify;
+}
+
+#ante{
+    background: url(../img/contact.png)no-repeat;
+    background-size: cover;
+}
+
+.form-control {
+    background-color: #ffffff75;
+    border-radius: 30px;
+    padding: 5px 20px;
+    position: relative;
+}
+/*Button Position Section css*/
+.btn-position {
+    position: absolute;
+    top: -28px;
+    right: 16px;
+    background: rgba(205, 209, 212, 0.86);
+}
+/*Button Customization css*/
+.btn-custom{
+
+    background-color: #dd4b2b;
+    margin-left: 0;
+    color: #fff;
+    padding: 5px 30px;
+}
+.btn-two{
+    background-color: #4b4e73;
+    margin-left: 0;
+    color: #fff;
+    padding: 5px 30px;
+}
+
+#placerat{
+    background-color: #d75d0e;
+}
+/*Unorder list css*/
+ul{
+    list-style: none;
+}
+
+ul li{
+    color: #fff;
+}
+/*footer Section*/
+footer{
+
+    background: url(../img/contact.png)no-repeat;
+    background-size: cover;
+}
+
+.text-white {
+    padding: 5%;
+}
+/*Media Querry for small divice*/
+@media (min-width: 0px) and (max-width: 500px){
+
+    .hero{
+    
+    background: url(../img/hero.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.title{
+    padding-top: 0px;
+}
+
+.btn-position{
+
+    position: absolute;
+    top: -23px;
+}
